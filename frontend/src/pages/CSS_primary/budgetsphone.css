@@ -1,0 +1,100 @@
+@media screen and (max-width: 1180px) {
+  .budget-container {
+    max-width: 90%;
+    padding: 10px;
+  }
+
+  .budget-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .budget-card {
+    width: 180px;
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .category-header {
+    font-size: 1rem;
+  }
+
+  .progress-bar {
+    height: 8px;
+  }
+
+  .bhu {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .hk {
+    font-size: 14px;
+  }
+
+  .head {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .budget-card {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .category-header {
+    font-size: 0.9rem;
+  }
+
+  .bhu {
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+
+  .progress-bar {
+    height: 6px;
+  }
+
+  .head {
+    font-size: 1.3rem;
+  }
+  .budget-container {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 240px) {
+  .budget-card {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .category-header {
+    font-size: 0.9rem;
+  }
+
+  .bhu {
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+
+  .progress-bar {
+    height: 6px;
+  }
+
+  .budget-container {
+    padding-top: 40px;
+  }
+
+  .budget-card {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .head {
+    font-size: 1.2rem;
+  }
+}

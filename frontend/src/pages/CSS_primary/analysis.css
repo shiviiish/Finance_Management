@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #2c3e50;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  height: 100vh;
+  transition: width 0.3s ease;
+}
+
+.sidebar.closed {
+  width: 50px;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  transition: margin-left 0.3s ease;
+}
+
+.content-shifted {
+  margin-left: 250px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.app-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background: url("/img/ai-generated-8490532_1280.jpeg") no-repeat center center /
+    cover;
+  background-size: cover;
+  background-position: center center;
+  height: 1200px;
+  width: 100vw;
+  z-index: -1;
+  opacity: 0.4;
+  filter: blur(3px);
+}
+
+.charts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+
+.chart-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+}
+
+.Piechart1,
+.Piechart2,
+.barchart1,
+.barchart2 {
+  background-color: rgb(206, 200, 193);
+  border: 2px solid rgb(0, 0, 0);
+  width: 500px;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.Piechart1 svg,
+.Piechart2 svg,
+.barchart1 svg,
+.barchart2 svg {
+  width: 100%;
+  height: 100px;
+}
+
+.mainheading,
+.h-primary {
+  font-weight: bolder;
+  font-size: 40px;
+  color: white;
+}
+
+p {
+  font-size: 25px;
+}
+
+.writer {
+  font-size: 15px;
+  font-family: "Playwrite IN", cursive;
+}
+
+.dropdown-btn {
+  font-family: "Playwrite IN", cursive;
+  width: 80px;
+  background-color: rgb(206, 200, 193);
+  border: 2px solid rgb(0, 0, 0);
+  margin: 1px;
+  color: black;
+}
+
+.dropdown-btn:hover {
+  color: #9a3ecb;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  right: 16px;
+  top: 29px;
+  width: 98px;
+  background-color: white;
+  border: 1px solid #5d5b5b;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}

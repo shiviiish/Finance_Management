@@ -1,0 +1,221 @@
+.profile-container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #210a51;
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.profile-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("/img/ai-generated-8490532_1280.png") no-repeat center center /
+    cover;
+  background-size: cover;
+  background-position: center center;
+  height: 1200px;
+  width: 100vw;
+  z-index: -1;
+  opacity: 0.4;
+  filter: blur(3px);
+}
+
+.pf {
+  color: white;
+}
+
+h2 {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.header-summary {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.summary-item {
+  background: #382f6c;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.summary-item:hover {
+  color: black;
+  background-color: #5d635e;
+  cursor: pointer;
+}
+
+.profile-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.profile-form label {
+  font-weight: 600;
+  align-self: flex-start;
+  margin-left: 62px;
+}
+
+.full-width {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background: rgb(214, 213, 213);
+  color: black;
+  box-sizing: border-box;
+}
+
+.full-width:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.password-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.save-password-btn {
+  width: 35%;
+  padding: 12px;
+  background-color: #7951e5;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.save-password-btn:hover {
+  background-color: rgb(147, 192, 56);
+  color: black;
+}
+
+.action-buttons,
+.delete-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+.logout-btn {
+  background: #53239b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  margin-top: 20px;
+}
+
+.logout-btn:hover {
+  background: #6b21a8;
+  color: #fff;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.cancel-btn,
+.save-btn {
+  padding: 12px 20px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background: #6c757d;
+  color: white;
+}
+
+.save-btn {
+  background: #14b539;
+  color: white;
+  border-radius: 10px;
+}
+
+.cancel-btn:hover,
+.save-btn:hover {
+  color: #000000;
+  background-color: #48ec0d;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: #ef3043;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #850808;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(229, 227, 227);
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  z-index: 1000;
+}
+
+.modal p {
+  margin-bottom: 20px;
+}
+
+.summary-item:hover {
+  color: #161715;
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}

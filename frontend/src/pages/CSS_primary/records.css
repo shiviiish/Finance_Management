@@ -1,0 +1,93 @@
+.container {
+  width: 80%;
+  max-width: 900px;
+  text-align: center;
+}
+
+.form-container {
+  margin-top: 24px;
+  padding: 16px;
+  background-color: #210a51 !important;
+  border: 1px solid #575555;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container h2 {
+  margin-bottom: 15px;
+}
+
+.form-container input,
+.form-container select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  background: #28a745;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.form-container button:hover {
+  background: #218838;
+}
+
+.table-container {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #2c3e50;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background: #210a51;
+  color: white;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+  background: #34495e;
+}
+
+.income {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.expense {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.heading {
+  color: #ffffff;
+}
+
+.selectcateg {
+  width: 888.5px;
+}

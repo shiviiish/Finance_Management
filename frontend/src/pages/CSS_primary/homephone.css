@@ -1,0 +1,307 @@
+@media screen and (max-width: 1180px) {
+  body {
+    font-size: 14px;
+  }
+
+  .hero {
+    padding: 40px 15px;
+    height: auto;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+  }
+
+  #services,
+  #services1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    width: 80%;
+    margin-bottom: 15px;
+  }
+
+  .home-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .home-link {
+    width: 80%;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  .reviews-container {
+    flex-direction: column;
+  }
+
+  .test {
+    width: 90%;
+  }
+
+  .cta-section {
+    padding: 30px;
+    max-width: 90%;
+  }
+
+  .cta-section h2 {
+    font-size: 2rem;
+  }
+
+  .cta-button {
+    font-size: 1rem;
+  }
+
+  .faq-section {
+    max-width: 90%;
+    padding: 15px;
+  }
+
+  .faq-question {
+    font-size: 1rem;
+  }
+
+  .home-container::before {
+    top: -300px;
+    height: 1800px;
+    opacity: 0.3;
+  }
+
+  .tar {
+    font-size: 14px;
+  }
+
+  .tar1 {
+    margin-top: 20px;
+  }
+
+  #b1,
+  #b2 {
+    height: auto;
+  }
+
+  .sec {
+    font-size: 13px;
+  }
+  .footer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 613px) {
+  body {
+    font-size: 12px;
+  }
+
+  .hero {
+    margin-top: 120px;
+    padding: 30px 10px;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .tagline {
+    font-size: 0.9rem;
+  }
+
+  .cta-button {
+    font-size: 0.85rem;
+    padding: 8px 12px;
+  }
+
+  .box {
+    width: 90%;
+  }
+
+  .home-link {
+    font-size: 0.85rem;
+    padding: 10px;
+  }
+
+  .test {
+    width: 95%;
+  }
+
+  .cta-section {
+    padding: 20px;
+    max-width: 95%;
+  }
+
+  .cta-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .cta-button {
+    font-size: 0.9rem;
+  }
+
+  .faq-section {
+    padding: 10px;
+  }
+
+  .faq-question {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  body {
+    font-size: 9px;
+  }
+
+  .hero {
+    margin-top: 170px;
+    padding: 20px 6px;
+  }
+
+  .hero h1 {
+    font-size: 1.1rem;
+  }
+
+  .tagline {
+    font-size: 0.6rem;
+  }
+
+  .cta-button {
+    font-size: 0.7rem;
+    padding: 5px 8px;
+  }
+
+  .box {
+    width: 98%;
+  }
+
+  .quick-links h2 {
+    font-size: 1.2rem;
+  }
+
+  .home-link {
+    font-size: 0.7rem;
+    padding: 6px;
+  }
+
+  .testimonials h2 {
+    font-size: 1.2rem;
+  }
+
+  .test {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .cta-section {
+    padding: 12px;
+    max-width: 100%;
+  }
+
+  .cta-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .cta-section p {
+    font-size: 0.85rem;
+  }
+
+  .cta-button {
+    font-size: 0.7rem;
+    padding: 5px 6px;
+  }
+
+  .faq-section h2 {
+    font-size: 1.2rem;
+  }
+
+  .faq-question {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  body {
+    font-size: 5px;
+  }
+
+  .hero {
+    margin-top: 200px;
+    padding: 10px 2px;
+  }
+
+  .hero h1 {
+    font-size: 0.7rem;
+  }
+
+  .tagline {
+    font-size: 0.4rem;
+  }
+
+  .cta-button {
+    font-size: 0.5rem;
+    padding: 3px 5px;
+  }
+
+  .box {
+    width: 100%;
+    padding: 10px;
+    min-height: 120px;
+  }
+
+  .quick-links h2 {
+    font-size: 0.8rem;
+  }
+
+  .home-link {
+    font-size: 0.5rem;
+    padding: 3px;
+  }
+
+  .testimonials h2 {
+    font-size: 0.8rem;
+  }
+
+  .test {
+    width: 100%;
+    padding: 10px;
+    min-height: 120px;
+  }
+
+  .cta-section {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .cta-section h2 {
+    font-size: 0.8rem;
+  }
+
+  .cta-section p {
+    font-size: 0.5rem;
+  }
+
+  .cta-button {
+    font-size: 0.5rem;
+    padding: 3px 4px;
+  }
+
+  .faq-section h2 {
+    font-size: 0.8rem;
+  }
+
+  .faq-question {
+    font-size: 0.5rem;
+  }
+}

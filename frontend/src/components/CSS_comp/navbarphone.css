@@ -1,0 +1,98 @@
+@media (max-width: 840px) {
+    @media (max-width: 840px) {
+        .navbar {
+          padding: 5px 10px; /* Reduce top-bottom and left-right padding */
+        }
+      }
+      
+      }
+  
+      @media (max-width: 542px) {
+        .navbar {
+          padding: 3px 8px; /* Reduce padding further */
+          height: 50px;
+        }
+      
+        .logo {
+          font-size: 1.2rem; /* Decrease font size */
+        }
+      
+        .nav-links {
+          gap: 5px; /* Reduce spacing between links */
+        }
+      
+        .nav-links a {
+          font-size: 0.85rem; /* Reduce font size */
+          padding: 5px 10px; /* Adjust padding */
+        }
+      
+        .navbar-logo {
+          max-width: 100px; /* Reduce logo container size */
+          padding: 10px; /* Reduce padding */
+        }
+      
+        .logo-img {
+          height: 30px; /* Decrease logo image size */
+          width: 30px;
+        }
+      
+        .logo-text {
+          font-size: 18px; /* Make text smaller */
+        }
+      }
+      
+
+      @media (max-width: 370px) {
+        .navbar {
+          padding: 2px 5px; /* Minimal padding */
+          height: 50px;
+        }
+      
+        .logo {
+          font-size: 1rem; /* Reduce logo font size */
+        }
+      
+        .nav-links {
+          gap: 3px; /* Reduce spacing between links */
+        }
+      
+        .nav-links a {
+          font-size: 0.75rem; /* Make text smaller */
+          padding: 3px 6px; /* Reduce button size */
+        }
+      
+        .navbar-logo {
+          max-width: 80px; /* Decrease logo container size */
+          padding: 5px; /* Reduce padding */
+        }
+      
+        .logo-img {
+          height: 25px; /* Shrink logo image */
+          width: 25px;
+        }
+      
+        .logo-text {
+          font-size: 16px; /* Smaller text */
+        }
+      }
+      
+      @media (max-width: 410px) {
+        .navbar {
+          padding: 2px 5px; /* Minimal padding */
+          height: 50px;
+        }
+      
+        .nav-links {
+          gap: 3px; /* Reduce spacing between links */
+        }
+      
+        .nav-links a {
+          font-size: 0.75rem; /* Make text smaller */
+          padding: 3px 6px; /* Reduce button size */
+        }
+      
+        .navbar-logo {
+          display: none; /* Completely hide the logo container */
+        }
+      }
+      

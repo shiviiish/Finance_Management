@@ -1,0 +1,74 @@
+.budget-container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.budget-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.budget-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.category-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.category-name {
+  flex: 1;
+  color: #000000 !important;
+}
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: black;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+}
+
+.over-budget {
+  color: red;
+}
+
+.bhu {
+  background-color: #7951e5;
+  color: white;
+}
+
+.hk {
+  color: black;
+  font-size: 15px;
+}
+
+.head {
+  color: white;
+}
+.bhu:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+h2 {
+  color: #ffffff;
+}
+
+.lastquote {
+  margin-top: 15px;
+}

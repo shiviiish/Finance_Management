@@ -1,0 +1,52 @@
+@media screen and (max-width: 1222px) {
+  .features-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-card {
+    width: 80%;
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 835px) {
+  .feature-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .feature-icon {
+    margin-bottom: 1rem;
+  }
+
+  .feature-card h3 {
+    margin-top: 10;
+  }
+  .features-section {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .feature-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .feature-icon {
+    margin-bottom: 1rem;
+  }
+
+  .feature-card h3 {
+    margin-top: 10;
+  }
+  .features-section {
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,62 @@
+@media screen and (max-width: 1180px) {
+  .contact-container {
+    width: 80%;
+    padding: 25px;
+  }
+
+  .middlebox {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .image {
+    width: 80%;
+    height: 300px;
+  }
+
+  .chat {
+    width: 80%;
+  }
+
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea {
+    width: 100%;
+  }
+
+  .btn,
+  .dropdown-btn {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1145px) {
+  .image {
+    display: none;
+  }
+  .contact-container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .chat {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .btn,
+  .dropdown-btn {
+    width: 50%;
+    padding: 8px;
+    font-size: 12px;
+  }
+}

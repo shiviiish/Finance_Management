@@ -1,0 +1,127 @@
+@media screen and (max-width: 1180px) {
+  .profile-container {
+    max-width: 90%;
+    padding: 15px;
+  }
+
+  .header-summary {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .summary-item {
+    width: 80%;
+    text-align: center;
+  }
+
+  .profile-form {
+    width: 100%;
+  }
+
+  .profile-form label {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .full-width {
+    width: 90%;
+  }
+
+  .save-password-btn,
+  .logout-btn,
+  .delete-btn {
+    width: 80%;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .profile-container {
+    padding: 10px;
+  }
+
+  .header-summary {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .summary-item {
+    width: 100%;
+    font-size: 13px;
+    padding: 6px;
+  }
+
+  .profile-form label {
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .full-width {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logout-btn,
+  .delete-btn {
+    width: 100%;
+    padding: 8px;
+  }
+
+  .modal {
+    width: 90%;
+    font-size: 14px;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .profile-container {
+    padding: 5px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .header-summary {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .summary-item {
+    width: 100%;
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .profile-form label {
+    font-size: 12px;
+  }
+
+  .full-width {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .save-password-btn,
+  .logout-btn,
+  .delete-btn {
+    width: 100%;
+    padding: 6px;
+    font-size: 14px;
+  }
+
+  .modal {
+    width: 95%;
+    font-size: 12px;
+    padding: 10px;
+  }
+}

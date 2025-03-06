@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #403f3f, #a0b2b8);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
